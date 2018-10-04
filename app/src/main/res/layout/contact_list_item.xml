@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="8">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:id="@+id/contactName"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"/>
+    
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:id="@+id/contactNumber"
+        android:layout_gravity="center"/>
+
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/callButton"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/locationButton"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
